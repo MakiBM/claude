@@ -1,0 +1,22 @@
+{
+  "mcpServers": {
+    "context7": {
+      "command": "npx",
+      "args": ["-y", "@upstash/context7-mcp"]
+    },
+    "docfork": {
+      "type": "http",
+      "url": "https://mcp.docfork.com/mcp",
+      "headers": {
+        "DOCFORK_CABINET": "general",
+        "DOCFORK_API_KEY": "DOCFORK_API_KEY"
+      }
+    },
+    "playwright": {
+      "command": "npx",
+      "args": [
+        "@playwright/mcp@latest"
+      ]
+    }
+  }
+}
